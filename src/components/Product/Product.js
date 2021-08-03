@@ -1,12 +1,12 @@
 import React from 'react';
 import './Product.css'
 const Product = (props) => {
-    const { img, name } = props.product;
+    const { img, name ,url } = props.product;
     console.log(props);
     return (
         <div className="product">
             <div>
-                <img src={img} alt="" />
+            <a href={url}> <img src={img} alt="" /> </a>
             </div>
             <div className="product-detail">
                 <h2>{name}</h2>
