@@ -4,3 +4,11 @@
 .product-detail{
     margin-left: 20px;
 }
+.cart-button{
+    padding: 8px 12px;
+    color: white;
+    background: goldenrod;
+    border: 1px solid lightgrey;
+    border-radius:5px;
+    cursor: pointer;
+}
