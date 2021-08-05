@@ -2,7 +2,7 @@ import React from 'react';
 import './Product.css'
 import { FaShoppingCart } from "react-icons/fa";
 const Product = (props) => {
-    const { img, name, url, stock, seller, price } = props.product;
+    const { img, name, url, stock, seller, price , } = props.product;
     return (
         <div className="product">
             <div>
