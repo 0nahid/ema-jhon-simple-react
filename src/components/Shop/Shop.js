@@ -10,7 +10,7 @@ const Shop = () => {
     const [cart, setCart] = useState([])
     const handleAddProduct = (product) => {
         // console.log('Product selected', product);
-        const newCart = [...cart , product];
+        const newCart = [...cart, product];
         setCart(newCart);
     }
     return (
@@ -24,7 +24,6 @@ const Shop = () => {
                 )}
             </div>
             <div className="cart-container">
-                <h1>This is cart.</h1>
                 <Cart cart={cart}></Cart>
             </div>
         </div>
