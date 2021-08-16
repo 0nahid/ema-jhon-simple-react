@@ -31,7 +31,7 @@ const Cart = (props) => {
             <h4>Items Ordered : {cart.length} </h4>
             <p>Product Price : $ {formatNumber(total)}</p>
             <p>Shipping Cost : $ {formatNumber(shipping)} </p>
-            <p><small>Tax + VAT : $ {formatNumber(tax)} </small></p>
+            <p><small>Tax + vat : $ {formatNumber(tax)} </small></p>
             <p>Total Price : $ {formatNumber(grandTotal)} </p>
         </div>
     );
