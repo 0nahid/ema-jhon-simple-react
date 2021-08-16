@@ -4,11 +4,9 @@ import Shop from './components/Shop/Shop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header></Header>
-        <Shop></Shop>
-      </header>
+    <div>
+      <Header></Header>
+      <Shop></Shop>
     </div>
   );
 }
